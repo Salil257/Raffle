@@ -4,7 +4,7 @@ contract Raffle {
     address public manager;
     address[] public players;
 
-    function Lottery() public {
+    function Raffle() public {
         manager = msg.sender;
     }
 
